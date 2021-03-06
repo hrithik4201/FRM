@@ -1,0 +1,77 @@
+body{
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a2ae;
+}
+h3{
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.name{
+  margin-bottom: 2%;
+  color: #2d3248;
+}
+
+.age{
+  color: 	#6a6f81;
+}
+.place{
+  margin-top: 0;
+  color: 	#6a6f81;
+}
+.stat-text{
+  margin-top: 0;
+  color: #6a6f81;
+}
+
+hr{
+  color: #969696;
+}
+
+.card{
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  width: 350px;
+  position: absolute;
+  border-radius: 15px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-img{
+  border-radius: 15px 15px 0 0;
+}
+.profile-img{
+  border-radius: 50%;
+  margin-top: -4rem;
+  border: 5px solid #fff;
+}
+
+.stats{
+  display: inline-block;
+  padding: 0 25px 5px;
+  color: #2d3248;
+}
+
+.circlet{
+  position: absolute;
+  transform: translate(-35%,-55%);
+}
+
+.circleb{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+    transform: translate(25%,65%);
+}
+
+@media only screen and (max-width: 375px){
+  .circleb{
+      transform: translate(70%,55%);
+  }
+
+  .circlet{
+    transform: translate(-70%,-55%);
+  }
+}
